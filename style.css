@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #643762;
+    text-align: center;
+}
+.title
+{
+    font-size: 6rem;
+    font-family: 'Press Start 2P', cursive;
+    color: #FEF2BF;
+    margin-top: 2%;
+}
+.container
+{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.game
+{
+    height: 60vmin;
+    width: 60vmin;
+    display: inline-flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box
+{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: #2F243A;
+}
+#reset
+{
+    height: 5vmin;
+    width: 25vmin;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 3vmin;
+    color: #2F243A;
+    font-weight: bold;
+}
