@@ -9,14 +9,14 @@ body
 }
 .title
 {
-    font-size: 6rem;
+    font-size: 6vmin;
     font-family: 'Press Start 2P', cursive;
     color: #FEF2BF;
     margin-top: 2%;
 }
 .container
 {
-    height: 80vh;
+    height: 75vh;
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
@@ -25,7 +25,7 @@ body
 }
 .game
 {
-    height: 60vmin;
+    height: 50vmin;
     width: 60vmin;
     display: inline-flex;
     flex-wrap: wrap ;
@@ -42,6 +42,7 @@ body
     box-shadow: 0 0 1rem rgba(0,0,0,0.5);
     font-size: 8vmin;
     color: #2F243A;
+    background-color: aliceblue;
 }
 #reset
 {
@@ -53,4 +54,24 @@ body
     font-size: 3vmin;
     color: #2F243A;
     font-weight: bold;
+}
+.msg-container
+{
+    height: 2vmin;
+}
+#msg
+{
+    font-size: 5vmin;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffff;
+    margin-top: 5%;
+}
+.hide
+{
+    display: none;;
+}
+
+.color
+{
+    background-color: red;
 }
